@@ -17,6 +17,10 @@ body.dark {
     --text-black-700: #E9E9E9E9;
 }
 
+body.dark h4 {
+    color: var(--text-black-700);
+}
+
 * {
     margin: 0;
     padding: 0;
@@ -747,7 +751,7 @@ h3.my-profession {
     font-weight: 700;
     color: var(--text-black-900);
     text-transform: capitalize;
-    margin: 15px 0 5px;
+    margin: 15px 1px 5px;
 }
 
 .contact .contact-info-item p {
