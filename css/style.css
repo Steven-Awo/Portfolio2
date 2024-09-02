@@ -707,6 +707,98 @@ h3.my-profession {
     display: block;
 }
 
+/* Image Styling for Grid View */
+.portfolio .portfolio-item-inner .portfolio-img img {
+    width: 100%;
+    display: block;
+    transition: transform 0.3s ease; /* Smooth zoom-in effect on hover */
+}
+
+/* Hover Effect to Zoom In */
+.portfolio .portfolio-item-inner .portfolio-img:hover img {
+    transform: scale(1.05); /* Slight zoom-in effect */
+}
+
+/* Lightbox Overlay and Effects */
+.lightboxOverlay {
+    background: rgba(0, 0, 0, 0.8);
+    z-index: 1000; /* Ensures the lightbox is above other elements */
+}
+
+.lightbox img {
+    max-width: 90%;  /* Ensures the image does not exceed the width of the screen */
+    max-height: 90%; /* Ensures the image does not exceed the height of the screen */
+}
+
+/* Optional: Adding a title below images when viewed in the lightbox */
+.lightbox .lb-caption {
+    color: #fff; /* White text for better readability */
+    font-size: 16px;
+    margin-top: 10px;
+    text-align: center;
+}
+
+
+/* Collapsible Button Styles */
+.collapsible {
+    background-color: #333; /* Dark background for button */
+    color: white;           /* White text */
+    cursor: pointer;        /* Pointer cursor on hover */
+    padding: 15px;          /* Padding for the button */
+    width: 100%;            /* Full width */
+    border: none;           /* No border */
+    text-align: center;     /* Center the text */
+    font-size: 18px;        /* Larger font size */
+    margin-top: 20px;       /* Space above the button */
+    transition: background-color 0.3s ease; /* Smooth background color change */
+}
+
+.collapsible:hover {
+    background-color: #555; /* Lighter background on hover */
+}
+
+.collapsible:after {
+    content: '\002B'; /* Unicode character for plus sign */
+    color: white;     /* White color */
+    font-weight: bold; /* Bold */
+    margin-left: 10px; /* Space after text */
+}
+
+.collapsible.active:after {
+    content: "\2212"; /* Unicode character for minus sign */
+}
+
+/* Collapsible Content Styles */
+.content {
+    max-height: 0;        /* Initially hidden */
+    overflow: hidden;     /* Hide content */
+    transition: max-height 0.2s ease-out; /* Smooth transition for expansion */
+    background-color: #010101; /* Light background color */
+    padding: 0 15px;      /* Padding for content */
+}
+
+/* Gallery Container for Certifications */
+.gallery-container {
+    display: flex;        /* Flexbox for layout */
+    flex-wrap: wrap;      /* Wrap items */
+    gap: 15px;            /* Space between items */
+    padding: 15px;        /* Padding around gallery */
+}
+
+/* Thumbnail Styles */
+.gallery-container img {
+    width: 200px;         /* Fixed thumbnail width */
+    height: auto;         /* Maintain aspect ratio */
+    cursor: pointer;      /* Pointer cursor on hover */
+    border-radius: 5px;   /* Rounded corners for thumbnails */
+    transition: transform 0.3s ease; /* Smooth zoom-in effect on hover */
+}
+
+/* Zoom-In Effect for Thumbnails */
+.gallery-container img:hover {
+    transform: scale(1.05); /* Slight zoom-in on hover */
+}
+
 /* -------------------------------------------------------------------------- */
 /*                               CONTACT SECTIO                               */
 /* -------------------------------------------------------------------------- */

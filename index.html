@@ -16,9 +16,16 @@
     <link rel="stylesheet" href="./css/skins/color-4.css" class="alternate-style" title="color-4" disabled>
     <link rel="stylesheet" href="./css/skins/color-5.css" class="alternate-style" title="color-5" disabled>
     <link rel="stylesheet" href="./css/style-switcher.css">
+    <link rel="stylesheet" href="./css/skins/color-6.css" class="alternate-style" title="color-6" disabled>
 
     <!-- FONT AWESOME -->
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.1/css/all.min.css">
+
+    <!-- Include Lightbox2 CSS -->
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/lightbox2/2.11.3/css/lightbox.min.css" rel="stylesheet">
+    <!-- Include Lightbox2 JavaScript -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/lightbox2/2.11.3/js/lightbox.min.js"></script>
+
 </head>
 <body>
     <!-- MAIN START -->
@@ -118,7 +125,7 @@
                                     </div>
                                     <div class="row">
                                         <div class="buttons padd-15">
-                                            <a href="#" class="btn">Download CV</a>
+                                            <a href="images/CV/Python-Developer1.pdf" class="btn" download>Download CV</a>
                                             <a href="#contact" class="btn hire-me">Hire Me</a>
                                         </div>
                                     </div>
@@ -462,7 +469,10 @@
                         <div class="portfolio-item padd-15">
                             <div class="portfolio-item-inner shadow-dark">
                                 <div class="portfolio-img">
-                                    <img src="./images/portfolio/portfolio-1.jpg" alt="portfolio-1">
+                                    <a href="./images/portfolio/portfolio-1.jpg" data-lightbox="portfolio-gallery" data-title="Portfolio 1">
+                                        <img src="./images/portfolio/portfolio-1.jpg" alt="portfolio-1">
+                                    </a>
+                                    <p></p>
                                 </div>
                             </div>
                         </div>
@@ -472,50 +482,61 @@
                         <div class="portfolio-item padd-15">
                             <div class="portfolio-item-inner shadow-dark">
                                 <div class="portfolio-img">
-                                    <img src="./images/portfolio/portfolio-2.jpg" alt="portfolio-2">
+                                    <a href="./images/portfolio/portfolio-2.jpg" data-lightbox="portfolio-gallery" data-title="Portfolio 2">
+                                        <img src="./images/portfolio/portfolio-2.jpg" alt="portfolio-2">
+                                    </a>
                                 </div>
                             </div>
                         </div>
                         <!-- portfolio item end -->
 
-                        <!-- portfolio item start -->
+                        <!-- Portfolio item start -->
                         <div class="portfolio-item padd-15">
                             <div class="portfolio-item-inner shadow-dark">
                                 <div class="portfolio-img">
-                                    <img src="./images/portfolio/portfolio-3.jpg" alt="portfolio-3">
+                                    <a href="./images/portfolio/portfolio-3.jpg" data-lightbox="portfolio" data-title="Project 3">
+                                        <img src="./images/portfolio/portfolio-3.jpg" alt="portfolio-3">
+                                    </a>
                                 </div>
                             </div>
                         </div>
-                        <!-- portfolio item end -->
+                        <!-- Portfolio item end -->
 
-                        <!-- portfolio item start -->
+                        <!-- Portfolio item start -->
                         <div class="portfolio-item padd-15">
                             <div class="portfolio-item-inner shadow-dark">
                                 <div class="portfolio-img">
-                                    <img src="./images/portfolio/portfolio-4.jpg" alt="portfolio-4">
+                                    <a href="./images/portfolio/portfolio-4.jpg" data-lightbox="portfolio" data-title="Project 4">
+                                        <img src="./images/portfolio/portfolio-4.jpg" alt="portfolio-4">
+                                    </a>
                                 </div>
                             </div>
                         </div>
-                        <!-- portfolio item end -->
+                        <!-- Portfolio item end -->
 
-                        <!-- portfolio item start -->
+                        <!-- Portfolio item start -->
                         <div class="portfolio-item padd-15">
                             <div class="portfolio-item-inner shadow-dark">
                                 <div class="portfolio-img">
-                                    <img src="./images/portfolio/portfolio-5.jpg" alt="portfolio-5">
+                                    <a href="./images/portfolio/portfolio-5.jpg" data-lightbox="portfolio" data-title="Project 5">
+                                        <img src="./images/portfolio/portfolio-5.jpg" alt="portfolio-5">
+                                    </a>
                                 </div>
                             </div>
                         </div>
-                        <!-- portfolio item end -->
+                        <!-- Portfolio item end -->
 
-                        <!-- portfolio item start -->
+                        <!-- Portfolio item start -->
                         <div class="portfolio-item padd-15">
                             <div class="portfolio-item-inner shadow-dark">
                                 <div class="portfolio-img">
-                                    <img src="./images/portfolio/portfolio-6.jpg" alt="portfolio-6">
+                                    <a href="./images/portfolio/portfolio-6.jpg" data-lightbox="portfolio" data-title="Project 6">
+                                        <img src="./images/portfolio/portfolio-6.jpg" alt="portfolio-6">
+                                    </a>
                                 </div>
                             </div>
                         </div>
+                        <!-- Portfolio item end -->
                         <!-- portfolio item end -->
                     </div>
 
@@ -587,94 +608,116 @@
                         </div>
                         <!-- certification item end -->
 
-                        <!-- certification item start -->
-                        <div class="portfolio-item padd-15">
+                        <button class="collapsible">Other Certifications</button>
+
+                        <!-- Collapsible Content -->
+                        <div class="content">
+                            <div class="gallery-container">
+                                <!-- Certifications 7 to 15 start -->
+                                <a href="./images/certifications/certificate-7.jpg" data-lightbox="certifications" data-title="Certificate 7">
+                                    <img src="./images/certifications/certificate-7.jpg" alt="certificate-7">
+                                </a>
+                                <a href="./images/certifications/certificate-8.jpg" data-lightbox="certifications" data-title="Certificate 8">
+                                    <img src="./images/certifications/certificate-8.jpg" alt="certificate-8">
+                                </a>
+                                <a href="./images/certifications/certificate-9.jpg" data-lightbox="certifications" data-title="Certificate 9">
+                                    <img src="./images/certifications/certificate-9.jpg" alt="certificate-9">
+                                </a>
+                                <a href="./images/certifications/certificate-10.jpg" data-lightbox="certifications" data-title="Certificate 10">
+                                    <img src="./images/certifications/certificate-10.jpg" alt="certificate-10">
+                                </a>
+                                <!-- Certifications 7 to 15 end -->
+                            </div>
+                        </div>
+
+                        <!--certification item start -->
+                        <!-- <div class="portfolio-item padd-15">
                             <div class="portfolio-item-inner shadow-dark">
                                 <div class="portfolio-img">
                                     <img src="./images/certifications/certificate-7.jpg" alt="certificate-7">
                                 </div>
                             </div>
-                        </div>
+                        </div> -->
                         <!-- certification item end -->
 
                         <!-- certification item start -->
-                        <div class="portfolio-item padd-15">
+                        <!-- <div class="portfolio-item padd-15">
                             <div class="portfolio-item-inner shadow-dark">
                                 <div class="portfolio-img">
                                     <img src="./images/certifications/certificate-8.jpg" alt="certificate-8">
                                 </div>
                             </div>
-                        </div>
+                        </div> -->
                         <!-- certification item end -->
 
                         <!-- certification item start -->
-                        <div class="portfolio-item padd-15">
+                        <!-- <div class="portfolio-item padd-15">
                             <div class="portfolio-item-inner shadow-dark">
                                 <div class="portfolio-img">
                                     <img src="./images/certifications/certificate-9.jpg" alt="certificate-9">
                                 </div>
                             </div>
-                        </div>
+                        </div> -->
                         <!-- certification item end -->
 
                         <!-- certification item start -->
-                        <div class="portfolio-item padd-15">
+                        <!-- <div class="portfolio-item padd-15">
                             <div class="portfolio-item-inner shadow-dark">
                                 <div class="portfolio-img">
                                     <img src="./images/certifications/certificate-10.jpg" alt="certificate-10">
                                 </div>
                             </div>
-                        </div>
+                        </div> -->
                         <!-- certification item end -->
 
                         <!-- certification item start -->
-                        <div class="portfolio-item padd-15">
+                        <!-- <div class="portfolio-item padd-15">
                             <div class="portfolio-item-inner shadow-dark">
                                 <div class="portfolio-img">
                                     <img src="./images/certifications/certificate-11.jpg" alt="certificate-11">
                                 </div>
                             </div>
-                        </div>
+                        </div> -->
                         <!-- certification item end -->
 
                         <!-- certification item start -->
-                        <div class="portfolio-item padd-15">
+                        <!-- <div class="portfolio-item padd-15">
                             <div class="portfolio-item-inner shadow-dark">
                                 <div class="portfolio-img">
                                     <img src="./images/certifications/certificate-12.jpg" alt="certificate-12">
                                 </div>
                             </div>
-                        </div>
+                        </div> -->
                         <!-- certification item end -->
 
                         <!-- certification item start -->
-                        <div class="portfolio-item padd-15">
+                        <!-- <div class="portfolio-item padd-15">
                             <div class="portfolio-item-inner shadow-dark">
                                 <div class="portfolio-img">
                                     <img src="./images/certifications/certificate-13.jpg" alt="certificate-13">
                                 </div>
                             </div>
-                        </div>
+                        </div> -->
                         <!-- certification item end -->
 
                         <!-- certification item start -->
-                        <div class="portfolio-item padd-15">
+                        <!-- <div class="portfolio-item padd-15">
                             <div class="portfolio-item-inner shadow-dark">
                                 <div class="portfolio-img">
                                     <img src="./images/certifications/certificate-14.jpg" alt="certificate-14">
                                 </div>
                             </div>
-                        </div>
+                        </div> -->
                         <!-- certification item end -->
 
                         <!-- certification item start -->
-                        <div class="portfolio-item padd-15">
+                        <!-- <div class="portfolio-item padd-15">
                             <div class="portfolio-item-inner shadow-dark">
                                 <div class="portfolio-img">
                                     <img src="./images/certifications/certificate-15.jpg" alt="certificate-15">
                                 </div>
                             </div>
-                        </div>
+                        </div> -->
                         <!-- certification item end -->
                     </div>
                 </div>
@@ -790,7 +833,21 @@
     <!-- STYLE SWITCHER END -->
 
 
-
+    <!-- JavaScript to Handle Collapsible Content -->
+    <script>
+        var coll = document.getElementsByClassName("collapsible");
+        for (var i = 0; i < coll.length; i++) {
+            coll[i].addEventListener("click", function () {
+                this.classList.toggle("active");
+                var content = this.nextElementSibling;
+                if (content.style.maxHeight) {
+                    content.style.maxHeight = null;
+                } else {
+                    content.style.maxHeight = content.scrollHeight + "px";
+                }
+            });
+        }
+    </script>
     <script src="./js/active-tab.js"></script>
     <script src="./js/script.js"></script>
     <script src="./js/style-switcher.js"></script>
