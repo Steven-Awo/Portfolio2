@@ -773,7 +773,6 @@ h3.my-profession {
     max-height: 0;        /* Initially hidden */
     overflow: hidden;     /* Hide content */
     transition: max-height 0.2s ease-out; /* Smooth transition for expansion */
-    background-color: #010101; /* Light background color */
     padding: 0 15px;      /* Padding for content */
 }
 
